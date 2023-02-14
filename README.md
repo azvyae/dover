@@ -4,19 +4,39 @@ Dover performs interactive command-line to interact with DigitalOcean through `d
 
 ## Requirements
 - `doctl`
+- `git`
 
 Firstly you have to install Doctl for this script to be working, you also have to do `doctl auth init` in the first place.
+Only works in MacOS or Linux. In windows currently you have to install using WSL2
+
+## Installation
+
+1. Clone this repository
+
+    ```BASH
+    git clone https://github.com/erstevn/dover.git
+    ```
+
+2. Include binary to your linux binaries (optional)
+    ```BASH
+    ln -sf $(pwd)/dover /usr/bin/dover
+    ```
 
 ## Usage
+
+**Basic Usage:**
+
 ```BASH
 ./dover
 ```
 
-Or you can include it to your binaries folder using 
+**Or if you included to your binaries folder:**
 
 ```BASH
-ln -sf $(pwd)/dover /usr/bin/dover
+dover
 ```
+
+
 
 ## Features
 - Set current session Droplet target
