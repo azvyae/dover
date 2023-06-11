@@ -14,7 +14,7 @@ Only works in MacOS or Linux. In windows currently you have to install using WSL
 1. Clone this repository
 
     ```BASH
-    git clone https://github.com/erstevn/dover.git
+    git clone https://github.com/azvyae/dover.git
     ```
 
 2. Include binary to your linux binaries (optional)
